@@ -1,0 +1,99 @@
+#portfolio{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+.portfolio_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-bottom: 2rem;
+}
+
+.portfolio_item {
+    background: rgb(50, 50, 50);
+    padding:0.1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    /* transition: 1px; */
+    width:25rem;
+    height:27rem; 
+    display:fex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.portfolio_item:hover {
+    border-color: violet;
+    background: transparent;
+}
+
+.portfolio_item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    object-fit: cover;
+    /* width:50px; */
+}
+
+/* .portfolio_item-image>img{
+    object-fit: cover;
+    width:15rem;
+} */
+
+.btnTools{
+    background: rgb(40,40,40);
+    color:white;
+    padding: 4px 10px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 10px;
+    margin-top:6px;
+    margin-left: 4px;
+}
+
+.project_img{
+    margin-top: 10px;
+    object-fit: cover;
+    width:350px;
+    height:250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    /* transform-origin: center center; */
+}
+
+    
+.project_img:hover {
+    transform: scale(1.2);
+}
+
+
+.btn1 {
+    background: violet;
+    padding: 1rem;
+    border: 0;
+    border-radius: 40px;
+    margin: 1rem;
+
+}
+
+.btn1>a {
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+@media  screen and (max-width:980px) {
+    .portfolio_container{
+    grid-template-columns: 1fr;
+    gap:1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    } 
+}
