@@ -79,8 +79,30 @@
     .hello {
         font-size: 4.5vw;
     }
-    .introPara{
+
+    .introPara {
         font-size: 2vw;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .bg {
+        right: 10vw;
+
+    }
+
+    .introContent {
+        font-size: 8vw;
+        margin-left: 2rem;
+    }
+
+    .hello {
+        font-size: 4.5vw;
+    }
+
+    .introPara {
+        font-size: 4vw;
     }
 }
 
@@ -97,7 +119,8 @@
     .hello {
         font-size: 4.5vw;
     }
-    .introPara{
+
+    .introPara {
         font-size: 3vw;
     }
 }
@@ -116,7 +139,8 @@
     .hello {
         font-size: 2.5vw;
     }
-    .introPara{
+
+    .introPara {
         font-size: 2vw;
     }
 }
