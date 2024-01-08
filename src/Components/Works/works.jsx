@@ -58,6 +58,8 @@ const Portfolio = () => {
                         <img src={productlandingpage2} alt="" className='project_img' />
                     </div>
                     <h3>Product Landing Page 2</h3>
+                    <button className='btnTools'>React</button>
+                    <button className='btnTools'>Web App</button> <br />
                     <button className='btn1'>
                         <a href="https://product-landing-page2.vercel.app/" target='_blank'>Live Demo</a>
                     </button>
