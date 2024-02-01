@@ -5,6 +5,7 @@ import Currencyconverter from "../../assets/currencyconverter.png";
 import temperatureconverter from "../../assets/temperatureconverter.png";
 import productlandingpage from "../../assets/productlandingpage.png";
 import productlandingpage2 from "../../assets/product-landing-page2.png";
+import TodoList from "../../assets/TodoListNext.png";
 
 const Portfolio = () => {
     return (
@@ -67,11 +68,15 @@ const Portfolio = () => {
 
                 <article className='portfolio_item'>
                     <div className="portfolio_item-image">
-                        <img src={UIdesign} alt="" className='project_img' />
+                        <img src={TodoList} alt="" className='project_img' />
                     </div>
-                    <h3>Pending.</h3>
+                    <h3>Todo List App</h3>
+                    <button className='btnTools'>Typescript</button>
+                    <button className='btnTools'>Tailwind CSS</button>
+                    <button className='btnTools'>Next.js</button>
+                    <button className='btnTools'>Web App</button> <br />
                     <button className='btn1'>
-                        <a href="https://www.youtube.com" target='_blank'>Live Demo</a>
+                        <a href="https://todo-app-ashy-two.vercel.app/" target='_blank'>Live Demo</a>
                     </button>
                 </article>
 
