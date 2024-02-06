@@ -8,7 +8,7 @@ import InstagramIcon from '../../assets/InstagramIcon.png'
 import LinkedinIcon from '../../assets/LinkedinIcon.png'
 import GithubIcon from '../../assets/GithubIcon.png'
 import emailjs from '@emailjs/browser';
-import pending from 'https://qph.cf2.quoracdn.net/main-qimg-eb8bf778d44fda9a071750c7e519d3d8-lq';
+import pending from '../../assets/pending.jpg';
 const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
