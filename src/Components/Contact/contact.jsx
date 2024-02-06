@@ -8,7 +8,7 @@ import InstagramIcon from '../../assets/InstagramIcon.png'
 import LinkedinIcon from '../../assets/LinkedinIcon.png'
 import GithubIcon from '../../assets/GithubIcon.png'
 import emailjs from '@emailjs/browser';
-
+import pending from 'https://qph.cf2.quoracdn.net/main-qimg-eb8bf778d44fda9a071750c7e519d3d8-lq';
 const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
@@ -33,9 +33,9 @@ const Contact = () => {
                     Some of the notable  companies  I have worked  with includes
                 </p>
                 <div className="clientImgs">
-                    <img src={Apple} alt="Apple" className='clientImg' />
-                    <img src={Google} alt="Google" className='clientImg' />
-                    <img src={Meta} alt="Meta" className='clientImg' />
+                    <img src={pending} alt="Apple" className='clientImg' />
+                    <img src={pending} alt="Google" className='clientImg' />
+                    <img src={pending} alt="Meta" className='clientImg' />
                 </div>
             </div>
             <div id="contact">
