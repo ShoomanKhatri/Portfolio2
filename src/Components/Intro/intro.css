@@ -110,8 +110,9 @@
         z-index: -1;
         display: block;
         align-items: center;
+        /* text-align: center; */
         width: 100%;
-        margin: auto;
+        /* margin: auto; */
         justify-content: center;
     }
 }
