@@ -2,6 +2,7 @@ import React from 'react';
 import './intro.css';
 import profile from '../../assets/profile1.png';
 import hireme from '../../assets/hireme.png';
+import mobileBackground from '../../assets/codimg.png';
 import { Link } from 'react-scroll';
 
 const Intro = () => {
@@ -19,6 +20,7 @@ const Intro = () => {
                 </p>
                 <Link><button className='btn'><img src={hireme} alt="hireme" className='btnImg' />Hire Me</button></Link>
                 <img src={profile} alt="profile" className='bg' />
+                <img src={mobileBackground} alt="mobile-background" className='mobile-bg' />
             </div>
         </section>
     );
