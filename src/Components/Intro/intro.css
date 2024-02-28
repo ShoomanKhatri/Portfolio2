@@ -65,7 +65,7 @@
     width: 40px;
 }
 
-@media screen and (max-width:840px) {
+/* @media screen and (max-width:840px) {
     .bg {
         right: 10vw;
 
@@ -142,5 +142,38 @@
 
     .introPara {
         font-size: 2vw;
+    }
+
+
+} */
+
+@media screen and (max-width: 768px) {
+    .hello {
+        font-size: 1.5rem;
+    }
+
+    .introText {
+        font-size: 2rem;
+    }
+
+    .introName {
+        font-size: 2.5rem;
+    }
+
+    .introPara {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .btnImg {
+        width: 1.25rem;
+    }
+
+    .bg {
+        max-width: 400px;
     }
 }
