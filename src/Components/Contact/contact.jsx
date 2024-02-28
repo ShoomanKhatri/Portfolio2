@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
-import Apple from "../../assets/Apple.png";
-import Google from "../../assets/Google.jpg";
-import Meta from "../../assets/Meta.jpg";
+// import Apple from "../../assets/Apple.png";
+// import Google from "../../assets/Google.jpg";
+// import Meta from "../../assets/Meta.jpg";
 import "./contact.css";
 import FacebookIcon from '../../assets/FacebookIcon.png'
 import InstagramIcon from '../../assets/InstagramIcon.png'
