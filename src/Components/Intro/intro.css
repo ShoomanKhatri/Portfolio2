@@ -71,6 +71,66 @@
 
 
 
+
+@media screen and (max-width:1260px) {
+    .bg {
+        right: 10vw;
+
+    }
+
+    .introContent {
+        font-size: 4vw;
+        margin-left: 2rem;
+        /* margin-right: 2rem; */
+    }
+
+    .hello {
+        font-size: 4.5vw;
+    }
+
+    .introPara {
+        font-size: 3vw;
+        /* word-wrap: break-word; */
+        max-width: 84vw;
+        margin-left: 0.8vw;
+        margin-right: auto;
+        text-align: justify;
+    }
+
+    .btnImg {
+        max-width: 40vw;
+        object-fit: cover;
+    }
+}
+
+
+@media screen and (max-width:996px) {
+    .bg {
+        right: 10vw;
+
+    }
+
+    .introContent {
+        font-size: 4vw;
+        margin-left: 2rem;
+        /* margin-right: 2rem; */
+    }
+
+    .hello {
+        font-size: 2.5vw;
+    }
+
+    .introPara {
+        font-size: 3vw;
+        /* word-wrap: break-word; */
+        max-width: 84vw;
+        margin-left: 0.8vw;
+        margin-right: auto;
+        text-align: justify;
+
+    }
+}
+
 @media screen and (max-width:768px) {
     .bg {
         right: 10vw;
@@ -114,64 +174,5 @@
         width: 100%;
         /* margin: auto; */
         justify-content: center;
-    }
-}
-
-@media screen and (max-width:996px) {
-    .bg {
-        right: 10vw;
-
-    }
-
-    .introContent {
-        font-size: 4vw;
-        margin-left: 2rem;
-        /* margin-right: 2rem; */
-    }
-
-    .hello {
-        font-size: 2.5vw;
-    }
-
-    .introPara {
-        font-size: 3vw;
-        /* word-wrap: break-word; */
-        max-width: 84vw;
-        margin-left: 0.8vw;
-        margin-right: auto;
-        text-align: justify;
-
-    }
-}
-
-
-@media screen and (max-width:1260px) {
-    .bg {
-        right: 10vw;
-
-    }
-
-    .introContent {
-        font-size: 4vw;
-        margin-left: 2rem;
-        /* margin-right: 2rem; */
-    }
-
-    .hello {
-        font-size: 4.5vw;
-    }
-
-    .introPara {
-        font-size: 3vw;
-        /* word-wrap: break-word; */
-        max-width: 84vw;
-        margin-left: 0.8vw;
-        margin-right: auto;
-        text-align: justify;
-    }
-
-    .btnImg {
-        max-width: 40vw;
-        object-fit: cover;
     }
 }

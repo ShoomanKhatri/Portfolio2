@@ -6,6 +6,8 @@ import temperatureconverter from "../../assets/temperatureconverter.png";
 import productlandingpage from "../../assets/productlandingpage.png";
 import productlandingpage2 from "../../assets/product-landing-page2.png";
 import TodoList from "../../assets/TodoListNext.png";
+import cottoncanva from "../../assets/cottoncanva.jpg";
+import cottoncanva1 from "../../assets/cottoncanva1.png";
 
 const Portfolio = () => {
     return (
@@ -82,11 +84,13 @@ const Portfolio = () => {
 
                 <article className='portfolio_item'>
                     <div className="portfolio_item-image">
-                        <img src={UIdesign} alt="" className='project_img' />
+                        <img src={cottoncanva1} alt="" className='project_img' />
                     </div>
-                    <h3>Pending.</h3>
+                    <h3>cottoncanva</h3>
+                    <button className='btnTools'>Wordpress</button>
+                    <button className='btnTools'>CMS</button> <br />
                     <button className='btn1'>
-                        <a href="https://www.youtube.com" target='_blank'>Live Demo</a>
+                        <a href="https://dev-cottoncanva.pantheonsite.io/" target='_blank'>Live Demo</a>
                     </button>
                 </article>
             </div>
