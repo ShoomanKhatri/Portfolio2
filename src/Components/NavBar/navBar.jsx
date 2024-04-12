@@ -10,7 +10,8 @@ const NavBar = () => {
     return (
         <>
             <nav className="NavBar">
-                <img src={logo} alt="Logo" className='logo' />
+                {/* <img src={logo} alt="Logo" className='logo' /> */}
+                <h2>Suman.</h2>
                 <div className="desktopMenu">
                     <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Home</Link>
                     <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-40} duration={500} className='desktopMenuListItem'>About</Link>

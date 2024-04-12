@@ -1,32 +1,34 @@
-#portfolio{
+#portfolio {
     margin-top: 2.5rem;
     text-align: center;
 }
+
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
-    margin-left:2rem;
-    margin-right:2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-bottom: 2rem;
 }
 
 .portfolio_item {
     background: rgb(50, 50, 50);
-    padding:0.1rem;
+    padding: 0.1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     /* transition: 1px; */
-    width:25rem;
-    height:27rem; 
-    display:fex;
+    width: 25rem;
+    height: 27rem;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
 .portfolio_item:hover {
-    border-color: violet;
+    border-color: #238636;
+    /*violet */
     background: transparent;
 }
 
@@ -42,35 +44,35 @@
     width:15rem;
 } */
 
-.btnTools{
-    background: rgb(40,40,40);
-    color:white;
+.btnTools {
+    background: rgb(40, 40, 40);
+    color: white;
     padding: 4px 10px;
     font-size: 12px;
     border: 0;
     border-radius: 10px;
-    margin-top:6px;
+    margin-top: 6px;
     margin-left: 4px;
 }
 
-.project_img{
+.project_img {
     margin-top: 10px;
     object-fit: cover;
-    width:350px;
-    height:250px;
+    width: 350px;
+    height: 250px;
     border-radius: 10px;
     transition: transform 0.3s ease;
     /* transform-origin: center center; */
 }
 
-    
+
 .project_img:hover {
     transform: scale(1.2);
 }
 
 
 .btn1 {
-    background: violet;
+    background: #238636;
     padding: 1rem;
     border: 0;
     border-radius: 40px;
@@ -86,14 +88,14 @@
     margin-bottom: 1rem;
 }
 
-@media  screen and (max-width:980px) {
-    .portfolio_container{
-    grid-template-columns: 1fr;
-    gap:1rem;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    } 
+@media screen and (max-width:980px) {
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
 }

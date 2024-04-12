@@ -48,7 +48,7 @@ const Contact = () => {
                     <textarea name="message" className='msg' rows="5" placeholder='Your Message' required ></textarea>
                     <button type='submit' value='Send' className="submitBtn">Submit</button>
                     <div className="links">
-                        <a href="https://www.facebook.com/styles.khatri/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/shoomankhatri/" target="_blank" rel="noopener noreferrer">
                             <img src={FacebookIcon} alt="FacebookIcon" className="link" />
                         </a>
 
