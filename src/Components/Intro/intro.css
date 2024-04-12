@@ -54,7 +54,7 @@
 }
 
 .btn:hover {
-    background-color: #238636; 
+    background-color: #238636;
     color: white;
 }
 
@@ -174,5 +174,6 @@
         width: 100%;
         /* margin: auto; */
         justify-content: center;
+        border-radius: 10px;
     }
 }
