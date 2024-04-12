@@ -70,7 +70,8 @@
 }
 
 .submitBtn {
-  background: white;
+  background: #238636;
+  color:white;
   border: none;
   border-radius: 0.5rem;
   margin: 2rem;
@@ -79,7 +80,7 @@
 }
 
 .submitBtn:hover {
-  background: #238636; 
+  background:#116823; 
   color: white;
 }
 

@@ -37,6 +37,7 @@ const Contact = () => {
                     <img src={pending} alt="Google" className='clientImg' />
                     <img src={pending} alt="Meta" className='clientImg' />
                 </div>
+                <button className="submitBtn"><a href="../../public/SumanResume.pdf" download="SumanResume.pdf" style={{color:'white'}}>Download CV</a></button>
             </div>
             <div id="contact">
                 <h1 className="contactPageTitle">Contact Me</h1>
