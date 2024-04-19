@@ -9,6 +9,7 @@ import TodoList from "../../assets/TodoListNext.png";
 import cottoncanva from "../../assets/cottoncanva.jpg";
 import cottoncanva1 from "../../assets/cottoncanva1.png";
 import Restro from "../../assets/Restro.png";
+import Travel from "../../assets/TravelNow.png";
 
 const Portfolio = () => {
     return (
@@ -32,6 +33,20 @@ const Portfolio = () => {
                         <a href="https://restaurant-app-olive.vercel.app/" target='_blank'>Live Demo</a>
                     </button>
                 </article>
+
+                <article className='portfolio_item'>
+                    <div className="portfolio_item-image">
+                        <img src={Travel} alt="Travel" className='project_img' />
+                    </div>
+                    <h3>Travel Web App</h3>
+                    <button className='btnTools'>Next JS</button>
+                    <button className='btnTools'>React</button>
+                    <button className='btnTools'>Tailwind CSS</button> <br />
+                    <button className='btn1'>
+                        <a href="https://travel-mu-ecru.vercel.app/" target='_blank'>Live Demo</a>
+                    </button>
+                </article>
+
 
                 <article className='portfolio_item'>
                     <div className="portfolio_item-image">
