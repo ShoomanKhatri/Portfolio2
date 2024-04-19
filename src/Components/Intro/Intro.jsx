@@ -18,7 +18,7 @@ const Intro = () => {
                     and
                     backend development.
                 </p>
-                <Link to="contactPage" smooth={true} duration={500}><button className='btn'><img src={hireme} alt="hireme" className='btnImg' />Hire Me</button></Link>
+                <Link to="contact" smooth={true} duration={500}><button className='btn'><img src={hireme} alt="hireme" className='btnImg' />Hire Me</button></Link>
                 <img src={profile} alt="profile" className='bg' />
                 <img src={mobileBackground} alt="mobile-background" className='mobile-bg' />
             </div>
