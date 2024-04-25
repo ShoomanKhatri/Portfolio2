@@ -10,6 +10,7 @@
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
+    box-sizing: border-box;
 }
 
 .portfolio_item {
@@ -79,6 +80,7 @@
     margin: 1rem;
 
 }
+
 .btn1:hover {
     background: #116823;
     /* padding: 1rem;
