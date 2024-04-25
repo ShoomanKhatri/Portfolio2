@@ -121,7 +121,8 @@
     }
 
     .portfolio_item {
-        width: calc(100% - 2px);
+        /* width: calc(100% - 1px); */
+        width:85vw;
         /* Calculate item width to leave space for padding */
         margin-bottom: 1rem;
     }
@@ -135,7 +136,16 @@
         box-sizing: border-box;
     }
 
-    .portfolio_container .portfolio_item {
+    /* .portfolio_container .portfolio_item {
         margin-bottom: 1rem;
+    } */
+    .portfolio_item-image {
+        border-radius: 1.5rem;
+        overflow: hidden;
+        object-fit: cover;
+        width:80vw;
+        align-items: center;
+        margin: 0 auto;  /* Center the image horizontally */
+        /* width:50px; */
     }
 }
