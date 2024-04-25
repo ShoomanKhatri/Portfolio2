@@ -122,3 +122,17 @@
         box-sizing: border-box;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .portfolio_container {
+        display: block;
+        /* Change to block layout for very small screens */
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .portfolio_container .portfolio_item {
+        margin-bottom: 1rem;
+        /* Add margin between items */
+    }
+}
