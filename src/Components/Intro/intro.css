@@ -196,8 +196,18 @@
         display: none;
     }
 
+
+
     .mobile-bg {
+
+        z-index: -1;
+        display: block;
+        align-items: center;
+        /* text-align: center; */
         width: 90vw;
+        /* margin: auto; */
+        justify-content: center;
+        border-radius: 10px;
     }
 }
 
@@ -225,8 +235,14 @@
 
     .mobile-bg {
 
-        width: 90vw;
-        /* align-items: center; */
-    margin: 0 auto;
+        z-index: -1;
+        display: inline-block;
+        align-items: center;
+        /* text-align: center; */
+        width: 86vw;
+        /* margin: auto; */
+        justify-content: center;
+        border-radius: 10px;
+        
     }
 }
