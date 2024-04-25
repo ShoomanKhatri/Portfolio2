@@ -116,12 +116,12 @@
         flex-wrap: wrap;
         justify-content: space-around;
         /* Distribute items with equal space around them */
-        padding: 0 1rem;
+        padding: 0 0;
         /* Add padding to create gaps on the left and right */
     }
 
     .portfolio_item {
-        width: calc(50% - 2rem);
+        width: calc(100% - 2px);
         /* Calculate item width to leave space for padding */
         margin-bottom: 1rem;
     }
