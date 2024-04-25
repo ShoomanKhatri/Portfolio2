@@ -122,11 +122,13 @@
 
     .portfolio_item {
         /* width: calc(100% - 1px); */
-        width:85vw;
         /* Calculate item width to leave space for padding */
+        width: 85vw;
         margin-bottom: 1rem;
     }
 }
+
+
 
 @media screen and (max-width: 480px) {
     .portfolio_container {
@@ -143,9 +145,10 @@
         border-radius: 1.5rem;
         overflow: hidden;
         object-fit: cover;
-        width:80vw;
+        width: 80vw;
         align-items: center;
-        margin: 0 auto;  /* Center the image horizontally */
+        margin: 0 auto;
+        /* Center the image horizontally */
         /* width:50px; */
     }
 }
