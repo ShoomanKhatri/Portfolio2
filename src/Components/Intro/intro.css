@@ -204,7 +204,7 @@
         display: block;
         align-items: center;
         /* text-align: center; */
-        width: 90vw;
+        width: 86vw;
         /* margin: auto; */
         justify-content: center;
         border-radius: 10px;
@@ -243,6 +243,6 @@
         /* margin: auto; */
         justify-content: center;
         border-radius: 10px;
-        
+
     }
 }
