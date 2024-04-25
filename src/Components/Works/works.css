@@ -112,27 +112,30 @@
 
 @media screen and (max-width:768px) {
     .portfolio_container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        box-sizing: border-box;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* Distribute items with equal space around them */
+        padding: 0 1rem;
+        /* Add padding to create gaps on the left and right */
+    }
+
+    .portfolio_item {
+        width: calc(50% - 2rem);
+        /* Calculate item width to leave space for padding */
+        margin-bottom: 1rem;
     }
 }
 
 @media screen and (max-width: 480px) {
     .portfolio_container {
         display: block;
-        /* Change to block layout for very small screens */
+
         text-align: center;
         box-sizing: border-box;
     }
 
     .portfolio_container .portfolio_item {
         margin-bottom: 1rem;
-        /* Add margin between items */
     }
 }
