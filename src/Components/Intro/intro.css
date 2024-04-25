@@ -222,4 +222,11 @@
         box-sizing: border-box;
         justify-content: center;
     }
+
+    .mobile-bg {
+
+        width: 90vw;
+        /* align-items: center; */
+    margin: 0 auto;
+    }
 }
