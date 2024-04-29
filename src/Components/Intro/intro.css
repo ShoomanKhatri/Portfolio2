@@ -39,13 +39,27 @@
 .introPara {
     /* font-size: medium;
     font-weight: 100; */
-    font-size: 2vw;
+    font-size: 1.5vw;
     max-width: 84vw;
     margin-left: 0;
     /* margin-left: auto;    
     margin-right: auto; */
     text-align: justify;
+    /* position: relative; */
+    top: 20px;
+    left: 1px;
 }
+
+/*
+@media screen and (min-width: 769px) {
+    .introPara {
+        left: calc(50% - 74vw); 
+top: 20px;
+right:10px;
+
+}
+}
+*/
 
 .btn {
     background: white;

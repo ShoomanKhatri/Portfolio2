@@ -10,6 +10,7 @@ import cottoncanva from "../../assets/cottoncanva.jpg";
 import cottoncanva1 from "../../assets/cottoncanva1.png";
 import Restro from "../../assets/Restro.png";
 import Travel from "../../assets/TravelNow.png";
+import Fitness from "../../assets/FlexzoneFitness.png";
 
 const Portfolio = () => {
     return (
@@ -117,6 +118,19 @@ const Portfolio = () => {
                         <img src={cottoncanva1} alt="" className='project_img' />
                     </div>
                     <h3>cottoncanva</h3>
+                    <button className='btnTools'>Wordpress</button>
+                    <button className='btnTools'>Ecommerce App</button>
+                    <button className='btnTools'>CMS</button> <br />
+                    <button className='btn1'>
+                        <a href="https://dev-cottoncanva.pantheonsite.io/" target='_blank'>Live Demo</a>
+                    </button>
+                </article>
+
+                <article className='portfolio_item'>
+                    <div className="portfolio_item-image">
+                        <img src={Fitness} alt="" className='project_img' />
+                    </div>
+                    <h3>FlexZone Fitness</h3>
                     <button className='btnTools'>Wordpress</button>
                     <button className='btnTools'>Ecommerce App</button>
                     <button className='btnTools'>CMS</button> <br />
