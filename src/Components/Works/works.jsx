@@ -135,7 +135,7 @@ const Portfolio = () => {
                     <button className='btnTools'>Ecommerce App</button>
                     <button className='btnTools'>CMS</button> <br />
                     <button className='btn1'>
-                        <a href="https://dev-cottoncanva.pantheonsite.io/" target='_blank'>Live Demo</a>
+                        <a href="https://dev-flexzonefitness.pantheonsite.io/" target='_blank'>Live Demo</a>
                     </button>
                 </article>
             </div>
