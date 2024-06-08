@@ -5,6 +5,8 @@ import hireme from '../../assets/hireme.png';
 import mobileBackground from '../../assets/codimg.png';
 import { Link } from "react-scroll"
 
+//This is not working on my browser but it runs fine on every other same browser. dont know why. 
+
 const Intro = () => {
     return (
         <section id="intro">
