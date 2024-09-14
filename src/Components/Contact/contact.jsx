@@ -27,16 +27,58 @@ const Contact = () => {
     return (
         <section id="contactPage">
             <div id="clients">
-                <h1 className="contactPageTitle">My Experience</h1>
-                <p className="clientDesc">
-                    I have had the  opportunity  to work  with a diverese group of companies.
-                    Some of the notable  companies  I have worked  with includes
-                </p>
-                <div className="clientImgs">
-                    <img src={pending} alt="Apple" className='clientImg' />
-                    <img src={pending} alt="Google" className='clientImg' />
-                    <img src={pending} alt="Meta" className='clientImg' />
-                </div>
+               
+               
+               {/* experience */}
+               <div className="bg-[rgb(50,50,50)] py-12 px-4 md:px-8 rounded-3xl">
+      {/* Section Title */}
+      <h1 className="text-4xl font-extrabold text-center text-white mb-6">My Experience</h1>
+      
+      {/* Description of the Experience */}
+      <p className="text-center text-gray-300 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">
+        I've had the privilege to work as a frontend developer at{' '}
+        <span className="font-bold text-white">Hyperce</span>, where I utilized{' '}
+        <span className="text-blue-400">React</span> and{' '}
+        <span className="text-blue-400">Next.js</span> to create engaging, modern web applications.
+      </p>
+      
+      {/* Hyperce Logo and Name Section */}
+      <div className="flex justify-center items-center space-x-4 mb-10">
+        {/* Logo and Company Name */}
+        <div className="bg-white p-4 rounded-lg shadow-lg flex items-center space-x-3">
+          {/* Hyperce Logo */}
+          <img src="./hyperce.svg" alt="Hyperce Logo" className="h-16 w-auto rounded-lg" />
+          
+          {/* Hyperce Name and Tagline */}
+          <div className="text-center">
+            <h2 className="text-2xl font-bold text-gray-800">Hyperce</h2>
+            <p className="text-gray-500">Innovating with Technology</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Tech Stack Icons */}
+      <div className="flex justify-center space-x-4 text-white">
+        {/* React Icon */}
+        <div className="flex flex-col items-center">
+          <i className="devicon-react-original text-5xl"></i>
+          <p className="mt-2 text-sm text-gray-400">React</p>
+        </div>
+
+        {/* Next.js Icon */}
+        <div className="flex flex-col items-center">
+          <i className="devicon-nextjs-original text-5xl"></i>
+          <p className="mt-2 text-sm text-gray-400">Next.js</p>
+        </div>
+
+        {/* Tailwind CSS Icon */}
+        <div className="flex flex-col items-center">
+          <i className="devicon-tailwindcss-plain text-5xl"></i>
+          <p className="mt-2 text-sm text-gray-400">Tailwind CSS</p>
+        </div>
+      </div>
+    </div>
+
                 <button className="submitBtn"><a href="../../public/SumanResume.pdf" download="SumanResume.pdf" style={{ color: 'white' }}>Download CV</a></button>
             </div>
             <div id="contact">
