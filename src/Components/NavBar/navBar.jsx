@@ -4,6 +4,7 @@ import logo from '../../assets/logo.jpg';
 import contactme5 from '../../assets/contactme5.png';
 import menu from '../../assets/menu.png';
 import { Link } from 'react-scroll';
+import "../../index.css";
 
 const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -11,7 +12,7 @@ const NavBar = () => {
         <>
             <nav className="NavBar">
                 {/* <img src={logo} alt="Logo" className='logo' /> */}
-                <h1>Suman.</h1>
+                <h1 className='signature-font text-3xl'>Suman.</h1>
                 <div className="desktopMenu">
                     <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>Home</Link>
                     <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-40} duration={500} className='desktopMenuListItem'>About</Link>

@@ -71,6 +71,7 @@ right:10px;
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
+    font-size: medium;
 }
 
 .btn:hover {
