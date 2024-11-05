@@ -205,7 +205,7 @@ right:10px;
 
 @media screen and (max-width: 540px) {
     .introContent {
-        font-size: 10vw;
+        font-size: 6vw;
     }
 
     .hello {
@@ -239,7 +239,7 @@ right:10px;
 
 @media screen and (max-width: 480px) {
     .introContent {
-        font-size: 10vw;
+        font-size: 6vw;
     }
 
     .hello {
