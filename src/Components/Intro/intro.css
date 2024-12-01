@@ -163,6 +163,7 @@ right:10px;
     .introContent {
         font-size: 4vw;
         margin-left: 2rem;
+        margin-top: 24vh;
         /* margin-right: 2rem; */
         /*         
         display: flex;
@@ -206,6 +207,7 @@ right:10px;
 @media screen and (max-width: 540px) {
     .introContent {
         font-size: 6vw;
+        margin-top: 24vw;
     }
 
     .hello {
@@ -219,6 +221,9 @@ right:10px;
 
     .bg {
         display: none;
+    }
+    .fullstack{
+        font-size:8vw;
     }
 
 

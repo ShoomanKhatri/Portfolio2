@@ -13,7 +13,7 @@ const Intro = () => {
             <div className="introContent">
                 <span className="hello"> Hello,</span>
                 <span className="introText"> I'm<span className="introName"> Shooman</span></span>
-                Fullstack Developer
+                <span className='fullstack'>Fullstack Developer</span>
                 <p className="introPara">I'm Suman Khatri, an enthusiastic web developer with a strong emphasis on
                     practicing both frontend and backend technologies. Currently a student, I'm embarking on a journey to become a
                      proficient full-stack developer by continually venturing into the realms of both frontend 
